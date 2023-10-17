@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+    box-sizing: border-box;
+} 
+.container{
+    padding: 0px;
+    height: 250vh;
+    background-image: url(quintn\ background.jpeg);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-attachment: fixed; /* Fixed background position */
+    
+}
+.rectangle1 {
+    padding-top: 10px;
+    height: 900px;
+    width: 1200px;
+    background-color: black;
+    position: absolute;
+    justify-content: center;
+    bottom: 0%;
+    margin-left: 275px;
+}
+.title1 {
+    height: 500px;
+    width: 1000px;
+    background-image: url(kill\ bill.png);
+    background-color: transparent;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    top: 5px;
+    left: -7%;
+    z-index: 2;
+
+}
+.photo1 {
+    height: 400px;
+    width: 600px;
+    background-image: url(kill\ bill\ photo.webp);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    bottom: 38%;
+    left: 25%;
+    border: 5px solid #ce9f13;
+    z-index: 1;
+}
+.rectangle2 {
+    padding-top: 10px;
+    height: 900px;
+    width: 1200px;
+    background-color: black;
+    position: absolute;
+    bottom: -100%;
+    margin-left: 275px;
+    
+}
+.title2 {
+    height: 800px;
+    width: 1000px;
+    background-image: url(dogs.png);
+    background-color: transparent;
+    position: absolute;
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    top: 80%;
+    right:0%;
+    z-index: 4;
+}
+.photo2 {
+    height: 400px;
+    width: 600px;
+    background-image: url(dogimage.jpg);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    position: absolute;
+    z-index: 3;
+    border: 5px solid #b00f0f;
+    top: 126%;
+    right: 22%;
+}
